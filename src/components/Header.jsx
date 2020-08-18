@@ -1,17 +1,15 @@
 import React from "react";
 import HighlightIcon from "@material-ui/icons/Highlight";
 
-function Heading() {
-  const appName = "Keeper";
-
+function Header() {
   return (
     <header>
       <h1>
         <HighlightIcon />
-        {appName}
+        Keeper
       </h1>
     </header>
   );
 }
 
-export default Heading;
+export default Header;
